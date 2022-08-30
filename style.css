@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(229, 57%, 11%);
+  height: 100vh;
+  background-image: url(./images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: 30% 100%;
+  font-family: Raleway;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card1 {
+  width: 300px;
+  height: 180px;
+  background-color: hsl(228, 56%, 26%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: hsl(229, 57%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.card2 {
+  width: 500px;
+  height: 130px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  position: relative;
+}
+
+.box {
+  width: 140px;
+  height: 55px;
+  background-color: white;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number {
+  font-weight: 700;
+  font-size: 24px;
+}
+.gb-left {
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.sb4:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid white;
+  border-top: 10px solid white;
+  border-bottom: 10px solid transparent;
+  right: 0px;
+  bottom: -19px;
+}
+
+.paragraph {
+  color: hsl(243, 100%, 93%);
+}
+.paragraph-desc {
+  color: white;
+  font-weight: 700;
+}
+
+.proggeres {
+  width: 430px;
+  height: 15px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.proggeres-barr {
+  width: 70%;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  height: 12px;
+  border-radius: 20px;
+  border: 2px solid rgb(27, 27, 27);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.proggeres-barr-round {
+  width: 10px;
+  height: 10px;
+  background-color: hsl(243, 100%, 93%);
+  border-radius: 100%;
+  margin-right: 2px;
+}
+
+.bottom-number {
+  color: hsl(243, 100%, 93%);
+  font-weight: 400;
+  margin-top: 10px;
+}
